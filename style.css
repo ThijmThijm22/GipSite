@@ -67,12 +67,26 @@ header {
   background: url("Assets/Images/burgerFrieten.jpg") center center/cover;
 
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 header h1 {
   font-size: 70px;
+}
+
+.seeNext {
+  user-select: none;
+  font-size: 40px;
+  color: white;
+  border: 2px solid white;
+  padding: 7px 30px;
+}
+
+.seeNext:hover {
+  cursor: pointer;
+  user-select: none;
 }
 
 /* Sections */
@@ -120,5 +134,9 @@ section:nth-child(even) .btn {
 }
 #sec2 .sImage {
   background: url("https://images.unsplash.com/photo-1502364271109-0a9a75a2a9df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80")
+    center center/cover;
+}
+#sec3 .sImage {
+  background: url("https://images.unsplash.com/photo-1563379926898-05f4575a45d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80")
     center center/cover;
 }
