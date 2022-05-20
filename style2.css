@@ -1,87 +1,43 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background: #f4f4f4;
-    font-family: monospace;
-    overflow: hidden;
-}
-
 .header {
-    color: #fff;
-    width: 100vw;
-    height: 92vh;
-    background: url("https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80") center center/cover;
-  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  color: #fff;
+  width: 100vw;
+  height: 92vh;
+  background: url("https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80")
+    center center/cover;
 
-nav {
-    background: #030502;
-    color: #f4f4f4;
-    height: 8vh;
-    width: 100vw;
-  
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    transition: all 0.5s;
-  }
-  
-  nav a {
-    color: inherit;
-    font-size: 35px;
-  }
-  
-  nav .navLinks {
-    width: 30%;
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  nav .navLinks a {
-    color: inherit;
-    font-size: 25px;
-  }
-  
-  nav:hover {
-    background: #f4f4f4;
-    color: #000;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-.container{
-    width: 90%;
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
+.container {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .container .card {
-    overflow: hidden;
-    width: 270px;
+  overflow: hidden;
+  width: 270px;
 }
 
 .container .card .product-image {
-    width: 230px;
+  width: 230px;
 }
 
 .container .card .product-image img {
-    width: 100%;
+  width: 100%;
 }
 
 .product-image {
-    width: 40vw;
-    height: 40vh;
+  width: 40vw;
+  height: 40vh;
 }
 
 #sec1 .sImage {
-    background: url("https://images.unsplash.com/photo-1622880833523-7cf1c0bd4296?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80")
-      center center/cover;
+  background: url("https://images.unsplash.com/photo-1622880833523-7cf1c0bd4296?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80")
+    center center/cover;
 }

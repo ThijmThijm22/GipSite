@@ -1,65 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  background: #f4f4f4;
-  font-family: monospace;
-  overflow-x: hidden;
-}
-
-a {
-  
-  text-decoration: none;
-  color: #000;
-}
-
-/* Buttons */
-.btn {
-  border-radius: 2px;
-  padding: 20px;
-  width: 300px;
-  font-size: 30px;
-  background: rgb(255, 173, 22);
-  color: black;
-  text-align: center;
-}
-
-nav {
-  background: #030502;
-  color: #f4f4f4;
-  height: 8vh;
-  width: 100vw;
-
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  transition: all 0.5s;
-}
-
-nav a {
-  color: inherit;
-  font-size: 35px;
-}
-
-nav .navLinks {
-  width: 30%;
-  display: flex;
-  justify-content: space-around;
-}
-
-nav .navLinks a {
-  color: inherit;
-  font-size: 25px;
-}
-
-nav:hover {
-  background: #f4f4f4;
-  color: #000;
-}
-
 /* Header */
 header {
   color: #fff;
@@ -88,6 +26,17 @@ header h1 {
 .seeNext:hover {
   cursor: pointer;
   user-select: none;
+}
+
+/* Buttons */
+.btn {
+  border-radius: 2px;
+  padding: 20px;
+  width: 300px;
+  font-size: 30px;
+  background: rgb(255, 173, 22);
+  color: black;
+  text-align: center;
 }
 
 /* Sections */
