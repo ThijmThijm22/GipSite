@@ -7,7 +7,7 @@
 body {
     background: #f4f4f4;
     font-family: monospace;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .header {
@@ -54,7 +54,13 @@ nav {
     color: #000;
   }
 
-.container{
+
+
+
+
+
+
+.products {
     width: 90%;
     height: 100%;
     display: flex;
@@ -63,25 +69,31 @@ nav {
     justify-content: space-between;
 }
 
-.container .card {
-    overflow: hidden;
-    width: 270px;
+.card {
+  background: #000;
+  width: 350px;
+  height: 350px;
+  border-radius: 3%;
+  align-items: center;
 }
 
-.container .card .product-image {
-    width: 230px;
+.img {
+  width: 250px;
+  height: 250px;
+
 }
 
-.container .card .product-image img {
-    width: 100%;
+#img1 {
+  background: url("Assets/Images/Pizza.jpeg")
+  center center/cover;
 }
 
-.product-image {
-    width: 40vw;
-    height: 40vh;
+#img2 {
+  background: url("Assets/Images/burgerFrieten.jpg")
+  center center/cover;
 }
 
-#sec1 .sImage {
-    background: url("https://images.unsplash.com/photo-1622880833523-7cf1c0bd4296?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80")
-      center center/cover;
+#img3 {
+  background: url("")
+  center center/cover;
 }
