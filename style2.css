@@ -1,3 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f4f4f4;
+    font-family: monospace;
+    overflow-x: hidden;
+}
+
+
 .header {
   color: #fff;
   width: 100vw;
@@ -10,34 +23,46 @@
   align-items: center;
 }
 
-.container {
-  width: 90%;
-  height: 100%;
-  display: flex;
-  flex-wrap: wrap;
+
+
+
+
+
+
+.products {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card {
+  background: #000;
+  width: 350px;
+  height: 350px;
+  border-radius: 3%;
   align-items: center;
-  justify-content: space-between;
 }
 
-.container .card {
-  overflow: hidden;
-  width: 270px;
+.img {
+  width: 250px;
+  height: 250px;
+
 }
 
-.container .card .product-image {
-  width: 230px;
+#img1 {
+  background: url("Assets/Images/Pizza.jpeg")
+  center center/cover;
 }
 
-.container .card .product-image img {
-  width: 100%;
+#img2 {
+  background: url("Assets/Images/burgerFrieten.jpg")
+  center center/cover;
 }
 
-.product-image {
-  width: 40vw;
-  height: 40vh;
-}
-
-#sec1 .sImage {
-  background: url("https://images.unsplash.com/photo-1622880833523-7cf1c0bd4296?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80")
-    center center/cover;
+#img3 {
+  background: url("")
+  center center/cover;
 }
