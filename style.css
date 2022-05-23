@@ -49,7 +49,7 @@ section {
   justify-content: space-around;
   align-items: center;
 }
-
+  
 section:nth-child(even) {
   background: #030502;
   color: #f4f4f4;
