@@ -27,10 +27,12 @@ body {
 
 
 
+.product-info {
+  color: #000;
+}
 
-
-.products {
-    width: 90%;
+#cards {
+    width: 70vw;
     height: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -39,17 +41,20 @@ body {
 }
 
 .card {
-  background: #000;
-  width: 350px;
+  background: #fff;
+  width: 280px;
   height: 350px;
   border-radius: 3%;
   align-items: center;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.img {
+.card .img {
   width: 250px;
   height: 250px;
-
 }
 
 #img1 {
@@ -63,6 +68,6 @@ body {
 }
 
 #img3 {
-  background: url("")
+  background: url("Assets/Images/Pasta.jpeg")
   center center/cover;
 }
