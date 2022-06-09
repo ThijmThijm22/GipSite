@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f4f4f4;
+    font-family: monospace;
+    overflow-x: hidden;
+}
+
+
+.header {
+  color: #fff;
+  width: 100vw;
+  height: 92vh;
+  background: url("https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80")
+    center center/cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+.product-info {
+  color: #000;
+}
+
+#cards {
+    width: 70vw;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card {
+  background: #fff;
+  width: 280px;
+  height: 350px;
+  border-radius: 3%;
+  align-items: center;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card .img {
+  width: 250px;
+  height: 250px;
+}
+
+#img1 {
+  background: url("Assets/Images/Pizza.jpeg")
+  center center/cover;
+}
+
+#img2 {
+  background: url("Assets/Images/burgerFrieten.jpg")
+  center center/cover;
+}
+
+#img3 {
+  background: url("Assets/Images/Pasta.jpeg")
+  center center/cover;
+}

@@ -5,6 +5,14 @@
   <link rel="stylesheet" href="styleLog-in.css" />
 </head>
 <body>
+<nav>
+        <a href="index.html">Chez Nous</a>
+        <div class="navLinks">
+          <a href="GipSite/index.html">Home</a>
+          <a href="">Products</a>
+          <a href="">Soon</a>
+        </div>
+      </nav>
   <form method = 'Post' action = ''>
     Volledige naam:<br><input type = 'text' name = 'name'><br>
     Telefoonnummer:<br><input type = 'text' name = 'phone_Number'><br>

@@ -1,5 +1,13 @@
-[Thu Jun 09 17:15:24.402647 2022] [mpm_winnt:notice] [pid 14312:tid 788] AH00455: Apache/2.4.6 (Win32) PHP/5.4.17 configured -- resuming normal operations
-[Thu Jun 09 17:15:24.402647 2022] [mpm_winnt:notice] [pid 14312:tid 788] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
-[Thu Jun 09 17:15:24.402647 2022] [core:notice] [pid 14312:tid 788] AH00094: Command line: 'C:\\Users\\Harma\\GitHub\\GipSite\\Database/apache2/bin/httpd_usbwv8.exe -d C:/Users/Harma/GitHub/GipSite/Database/apache2'
-[Thu Jun 09 17:15:24.405649 2022] [mpm_winnt:notice] [pid 14312:tid 788] AH00418: Parent: Created child process 2260
-[Thu Jun 09 17:15:24.973136 2022] [mpm_winnt:notice] [pid 2260:tid 840] AH00354: Child: Starting 64 worker threads.
+[Thu Jun 09 17:25:48.406504 2022] [mpm_winnt:notice] [pid 2608:tid 772] AH00455: Apache/2.4.6 (Win32) PHP/5.4.17 configured -- resuming normal operations
+[Thu Jun 09 17:25:48.406504 2022] [mpm_winnt:notice] [pid 2608:tid 772] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
+[Thu Jun 09 17:25:48.406504 2022] [core:notice] [pid 2608:tid 772] AH00094: Command line: 'C:\\Users\\Harma\\GitHub\\GipSite\\Database/apache2/bin/httpd_usbwv8.exe -d C:/Users/Harma/GitHub/GipSite/Database/apache2'
+[Thu Jun 09 17:25:48.409504 2022] [mpm_winnt:notice] [pid 2608:tid 772] AH00418: Parent: Created child process 27692
+[Thu Jun 09 17:25:49.092657 2022] [mpm_winnt:notice] [pid 27692:tid 804] AH00354: Child: Starting 64 worker threads.
+[Thu Jun 09 18:00:22.086293 2022] [:error] [pid 27692:tid 1284] [client ::1:49690] PHP Notice:  Use of undefined constant session - assumed 'session' in C:\\Users\\Harma\\GitHub\\GipSite\\Database\\root\\Shopping_cart.php on line 21
+[Thu Jun 09 18:00:22.086293 2022] [:error] [pid 27692:tid 1284] [client ::1:49690] PHP Fatal error:  Call to undefined function start() in C:\\Users\\Harma\\GitHub\\GipSite\\Database\\root\\Shopping_cart.php on line 21
+[Thu Jun 09 18:00:51.606130 2022] [:error] [pid 27692:tid 1292] [client ::1:50798] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in C:\\Users\\Harma\\GitHub\\GipSite\\Database\\root\\Shopping_cart.php on line 27
+[Thu Jun 09 18:00:51.606130 2022] [:error] [pid 27692:tid 1292] [client ::1:50798] PHP Notice:  Undefined variable: row in C:\\Users\\Harma\\GitHub\\GipSite\\Database\\root\\Shopping_cart.php on line 35
+[Thu Jun 09 18:00:51.606130 2022] [:error] [pid 27692:tid 1292] [client ::1:50798] PHP Notice:  Undefined variable: row in C:\\Users\\Harma\\GitHub\\GipSite\\Database\\root\\Shopping_cart.php on line 36
+[Thu Jun 09 18:00:51.606130 2022] [:error] [pid 27692:tid 1292] [client ::1:50798] PHP Notice:  Undefined variable: row in C:\\Users\\Harma\\GitHub\\GipSite\\Database\\root\\Shopping_cart.php on line 37
+[Thu Jun 09 18:00:51.606130 2022] [:error] [pid 27692:tid 1292] [client ::1:50798] PHP Notice:  Undefined variable: row in C:\\Users\\Harma\\GitHub\\GipSite\\Database\\root\\Shopping_cart.php on line 39
+[Thu Jun 09 18:00:51.606130 2022] [:error] [pid 27692:tid 1292] [client ::1:50798] PHP Notice:  Undefined variable: row in C:\\Users\\Harma\\GitHub\\GipSite\\Database\\root\\Shopping_cart.php on line 40
