@@ -19,6 +19,7 @@
     Straat:<br><input type = 'text' name = 'street'><br>
     Postcode:<br><input type = 'text' name = 'postal_Code'><br>
     Stad:<br><input type = 'text' name = 'city'><br>
+    Password:<br><input type = 'text' name = 'Wachtwoord'><br>
     <input type = 'submit' name = 'Submit'><br>
   </form>
   <?php
@@ -29,9 +30,10 @@
     $Street = $_POST['street'];
     $Postal_Code = $_POST['postal_Code'];
     $City = $_POST['city'];
+    $Pass = $_POST['Wachtwoord'];
 
     include('connect.php');
-    $query = "Insert into customers (name, phone_Number, street, postal_Code, city) values ('$Name','$Phone_Number','$Street','$Postal_Code','$City')";
+    $query = "Insert into customers (name, phone_Number, street, postal_Code, city, Wachtwoord) values ('$Name','$Phone_Number','$Street','$Postal_Code','$City', '$Pass')";
     $res = mysqli_query($cn, $query) or die ('Uitvoeren query mislikt');
     echo "Toevoegen geluhkt";
     mysqli_close($cn);
