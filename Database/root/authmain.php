@@ -1,13 +1,13 @@
 <?php
 session_start(); //vanaf nu werken we met sessies en eventuele sessievariabelen worden geladen
-if (isset($_POST['naam']) && isset($_POST['Wachtwoord'])) //voldaan als de gebruiker net heeft proberen in te loggen
+if (isset($_POST['userid']) && isset($_POST['password'])) //voldaan als de gebruiker net heeft proberen in te loggen
 		{
-		$userid = $_POST['naam'];
-		$password = $_POST['Wachtwoord'];
+		$userid = $_POST['userid'];
+		$password = $_POST['password'];
 		$db_conn = mysqli_connect('localhost', 'root', 'usbw');
-		mysqli_select_db($db_conn,'auth');
-		$query = 'select * from auth '."where name='$userid' "." and pass='$password'";
-		$result = mysqli_query($db_conn, $query);
+		mysqli_select_db($db_conn,'menu');
+		$query = 'select * from customers '."where Name='$userid' "." and Wachtwoord='$password'";
+		$result = mysqli_query($db_conn, $query) or die ('Query mislukt');
 		if (mysqli_num_rows($result) >0 ) //de gebruiker werd gevonden in de database
 				{
 				$_SESSION['valid_user'] = $userid;
